@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvox.Helios.Service", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvox.Helios.Core", "src\Volvox.Helios.Core\Volvox.Helios.Core.csproj", "{A63DE577-41FA-451E-ADD0-AFDA7997602D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volvox.Helios.Web", "src\Volvox.Helios.Web\Volvox.Helios.Web.csproj", "{76B828B6-0D11-418C-8617-47C0411721CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B828B6-0D11-418C-8617-47C0411721CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B828B6-0D11-418C-8617-47C0411721CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B828B6-0D11-418C-8617-47C0411721CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B828B6-0D11-418C-8617-47C0411721CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

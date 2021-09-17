@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Volvox.Helios.Domain.ModuleSettings.StreamerModule;
 
 namespace Volvox.Helios.Service
 {
@@ -8,5 +9,15 @@ namespace Volvox.Helios.Service
             : base(options)
         {
         }
+
+        #region Streamer
+
+        public DbSet<StreamerSettings> StreamerSettings { get; set; }
+
+        public DbSet<StreamerChannelSettings> StreamerChannelSettings { get; set; }
+
+        public DbSet<StreamAnnouncerMessage> StreamAnnouncerMessages { get; set; }
+
+        #endregion
     }
 }
