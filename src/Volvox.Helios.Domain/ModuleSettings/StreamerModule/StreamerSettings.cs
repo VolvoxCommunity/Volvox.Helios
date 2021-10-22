@@ -2,7 +2,7 @@
 
 namespace Volvox.Helios.Domain.ModuleSettings.StreamerModule
 {
-    public class StreamerSettings : ModuleSettings
+    public class StreamerSettings : BaseModuleSettings
     {
         public List<StreamerChannelSettings> ChannelSettings { get; set; }
 
