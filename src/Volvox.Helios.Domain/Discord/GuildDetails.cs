@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Discord.Rest;
+using Discord.WebSocket;
 
 namespace Volvox.Helios.Domain.Discord
 {
@@ -10,8 +10,8 @@ namespace Volvox.Helios.Domain.Discord
 
         public int MemberCount { get; set; }
 
-        public IReadOnlyCollection<RestRole> Roles { get; set; } = new Collection<RestRole>();
+        public IReadOnlyCollection<SocketRole> Roles { get; set; } = new Collection<SocketRole>();
 
-        public IReadOnlyCollection<RestChannel> Channels { get; set; } = new Collection<RestChannel>();
+        public IReadOnlyCollection<SocketChannel> Channels { get; set; } = new Collection<SocketChannel>();
     }
 }
