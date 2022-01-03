@@ -1,6 +1,6 @@
 {
     "name": "volvox-helios",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
@@ -34,7 +34,7 @@
         "@angular-devkit/build-angular": "~13.0.1",
         "@angular-eslint/builder": "^12.5.0",
         "@angular-eslint/eslint-plugin": "^12.5.0",
-        "@angular-eslint/schematics": "^12.6.1",
+        "@angular-eslint/schematics": "13.0.1",
         "@angular-eslint/template-parser": "^12.5.0",
         "@angular/cli": "~13.0.1",
         "@angular/compiler-cli": "~13.0.0",
