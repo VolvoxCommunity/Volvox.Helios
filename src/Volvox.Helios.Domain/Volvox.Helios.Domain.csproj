@@ -1,11 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
+        <Configurations>Debug;Release;StartWithoutAngular</Configurations>
+        <Platforms>AnyCPU</Platforms>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Discord.Net.Labs.WebSocket" Version="3.1.7"/>
+        <PackageReference Include="Discord.Net.Labs.WebSocket" Version="3.6.1" />
     </ItemGroup>
 
 </Project>

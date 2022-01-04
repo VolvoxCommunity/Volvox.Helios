@@ -1,6 +1,8 @@
-<body>
-<app-nav-menu></app-nav-menu>
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
-</body>
+<ng-container *ngIf="sharedDataState$ | async as state">
+    <mat-progress-bar *ngIf="state.isLoading" mode="indeterminate"></mat-progress-bar>
+<!--    <helios-nav></helios-nav>-->
+
+    <volvox-logger></volvox-logger>
+
+    <router-outlet></router-outlet>
+</ng-container>

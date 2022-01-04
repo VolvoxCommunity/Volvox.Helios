@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31825.309
@@ -17,24 +16,33 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		StartWithoutAngular|Any CPU = StartWithoutAngular|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{41121102-A802-48B6-BABD-42EE3871AF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{41121102-A802-48B6-BABD-42EE3871AF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41121102-A802-48B6-BABD-42EE3871AF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41121102-A802-48B6-BABD-42EE3871AF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41121102-A802-48B6-BABD-42EE3871AF04}.StartWithoutAngular|Any CPU.ActiveCfg = StartWithoutAngular|Any CPU
+		{41121102-A802-48B6-BABD-42EE3871AF04}.StartWithoutAngular|Any CPU.Build.0 = StartWithoutAngular|Any CPU
 		{F7195615-CE7F-4CA2-AFB7-9B8296BF35F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F7195615-CE7F-4CA2-AFB7-9B8296BF35F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7195615-CE7F-4CA2-AFB7-9B8296BF35F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7195615-CE7F-4CA2-AFB7-9B8296BF35F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7195615-CE7F-4CA2-AFB7-9B8296BF35F7}.StartWithoutAngular|Any CPU.ActiveCfg = StartWithoutAngular|Any CPU
+		{F7195615-CE7F-4CA2-AFB7-9B8296BF35F7}.StartWithoutAngular|Any CPU.Build.0 = StartWithoutAngular|Any CPU
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.StartWithoutAngular|Any CPU.ActiveCfg = StartWithoutAngular|Any CPU
+		{A63DE577-41FA-451E-ADD0-AFDA7997602D}.StartWithoutAngular|Any CPU.Build.0 = StartWithoutAngular|Any CPU
 		{76B828B6-0D11-418C-8617-47C0411721CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76B828B6-0D11-418C-8617-47C0411721CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76B828B6-0D11-418C-8617-47C0411721CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76B828B6-0D11-418C-8617-47C0411721CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B828B6-0D11-418C-8617-47C0411721CE}.StartWithoutAngular|Any CPU.ActiveCfg = StartWithoutAngular|Any CPU
+		{76B828B6-0D11-418C-8617-47C0411721CE}.StartWithoutAngular|Any CPU.Build.0 = StartWithoutAngular|Any CPU    
 		{C30B65EA-F2B1-4BC1-AE60-6B7134363ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C30B65EA-F2B1-4BC1-AE60-6B7134363ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30B65EA-F2B1-4BC1-AE60-6B7134363ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
