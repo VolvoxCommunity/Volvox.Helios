@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <UserSecretsId>dotnet-Volvox.Helios.Worker-BAE987A5-CD9F-47B5-BC80-FF7B4D366139</UserSecretsId>
   </PropertyGroup>
 
